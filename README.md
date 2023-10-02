@@ -1,12 +1,17 @@
 # GalaxPong
 
-<img width="625" alt="Screenshot 2023-09-26 094104" src="https://github.com/DamosIAR/Hopeless/assets/125948571/845d7432-ba5c-4ceb-9c53-ec087b0d19c2">
+<img width="625"  src="https://github.com/SteveCun/Project-2DPong-GalaxPong-Github/assets/125948499/3363f365-aca7-4c22-a25f-08d7d5a50fd6">
 
-A 2D platformer game is a type of video game that features a two-dimensional environment where players control a character that can move along horizontal and vertical platforms. The main objective in these games is to jump, run, and interact with various obstacles, enemies, or puzzles to reach the final goal in a level or stage.
+An easy table tennis or ping-pong match is simulated in the famous video game Pong. Released in the 1970s, it was one of the first arcade games. Pong is a video game where two players control paddles on opposing sides of the screen with the goal of passing a ball back and forth. In the event that one player fails to return the ball, the game is won by scoring points.
+
+
+<img width="625"  src="https://github.com/SteveCun/Project-2DPong-GalaxPong-Github/assets/125948499/43508800-32e6-4f34-b046-b65feb8403f6">
+
 #
 
-About Hopeless
-Hopeless is a 2D platformer game in which your objective is to reach a guiding light while skillfully navigating past various obstacles in your path. The obstacles in question encompass a swinging hazard suspended from the ceiling, a descending threat, and a platform that can crumble beneath your feet.
+About Glowing Pong 
+"Glowing Pong" is a version of the original Pong game that features a neon atmosphere. When one of the players receives a score of 100 or when the timer expires, the game is over.
+
 
 #
 
@@ -14,16 +19,19 @@ Game Control
 These are the control to navigate through obstacles
 | Key Binding | Function |
 | ----------- | -------- |
-| A | Move Left |
-| D | Move Right |
-| Space | Jump |
+| W | Move Player 'Left' Upward |
+| S | Move Player 'Left' Downward |
+|Up Arrow |Move Player 'Right' Upward |
+|Down Arrow| Move Player 'Right' Downward |
+|Esc|	Back to Main Menu|
+
 
 #
 
 Scripts
 | Scripts Name | Description |
 | ------------ | ----------- |
-| CameraFollow.cs | This script is used to make the camera follow the player |
-| Gravity.cs | This script is used to control the gravity in the game |
-| PlayerMovement.cs | This script is used to control player movement |
+| PlayerControl.cs| This script is used to control the movement of player 1/left |
+| SceneManagement.cs | This script is used to manage the scene switch|
+|BallControl.cs | This script is used to manage the movement of the ball |
 
